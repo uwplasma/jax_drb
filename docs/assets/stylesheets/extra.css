@@ -4,7 +4,7 @@
 .md-footer__link,
 .md-footer__link:link,
 .md-footer__link:visited {
-  color: var(--md-default-fg-color) !important;
+  color: var(--md-footer-fg-color) !important;
 }
 
 .md-footer__link:hover,
@@ -15,6 +15,5 @@
 .md-footer__title,
 .md-footer__direction,
 .md-footer__button {
-  color: var(--md-default-fg-color) !important;
+  color: var(--md-footer-fg-color) !important;
 }
-
