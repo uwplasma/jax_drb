@@ -12,6 +12,10 @@ window.MathJax = {
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     processEscapes: true,
   },
+  svg: {
+    // Share a single global font cache to reduce page weight and re-typesetting overhead.
+    fontCache: 'global',
+  },
   options: {
     skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
   },
